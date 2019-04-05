@@ -1,0 +1,44 @@
+header {
+    /* border: 1px solid black; */
+    font-family: Tabac G4 Bold;
+    font-size: 80px;
+    text-align: center;
+    margin: 15px auto;
+    height: 200px;
+    width: 80%;
+}
+h1 {
+    color: white;
+    font-size: 90px;
+}
+body {
+    background-image: url("file:///Users/danmitchell/projects/workinhg/Psychic-Game/Hx3r5Z.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.scores {
+    border: 1px solid black;
+    font-size: 20px;
+    text-align: center;
+    margin: 50px auto;
+    height: 150px;
+    width: 80%;
+}
+
+.rightguess {
+    border: 1px solid black;
+    font-size: 20px;
+    text-align: center;
+    margin: 50px auto;
+    height: 150px;
+    width: 80%;
+}
+.wrongguess {
+        border: 1px solid black;
+        font-size: 20px;
+        text-align: center;
+        margin: 50px auto;
+        height: 150px;
+        width: 80%;
+    }

@@ -22,7 +22,7 @@ document.onkeyup = function (events) {
     } else {
         guessremaining--;
         document.getElementsByClassName("GuessLeft")[0].innerHTML = guessremaining
-        // update the number sequeace in code
+        // update the number sequence in code
         document.getElementsByClassName("Guessed")[0].prepend(event.key)
 
     }
