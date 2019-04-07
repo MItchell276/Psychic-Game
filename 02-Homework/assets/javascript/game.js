@@ -24,6 +24,9 @@ document.onkeyup = function (events) {
         document.getElementsByClassName("GuessLeft")[0].innerHTML = guessremaining
         // update the number sequence in code
         document.getElementsByClassName("Guessed")[0].prepend(event.key)
+        document.getElementsByClassName("Wins")[0].prepend(event.key)
+        document.getElementsByClassName("Loses")[0].prepend(event.key)
+
 
     }
 
